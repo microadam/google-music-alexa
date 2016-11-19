@@ -1,0 +1,28 @@
+MetaIntent what is playing
+MetaIntent what's playing
+MetaIntent what is this song
+MetaIntent what's this song
+MetaIntent what is this track
+MetaIntent what's this track
+MetaIntent what is the current track
+MetaIntent what's the current track
+MetaIntent what is the current song
+MetaIntent what's the current song
+ArtistIntent to play {artist}
+ArtistIntent play {artist}
+TrackIntent play track {track}
+TrackIntent to play track {track}
+TrackIntent play the track {track}
+TrackIntent to play the track {track}
+TrackIntent play song {track}
+TrackIntent to play song {track}
+TrackIntent play the song {track}
+TrackIntent to play the song {track}
+TrackByArtistIntent to play {track} by {artist}
+TrackByArtistIntent play {track} by {artist}
+AlbumByArtistIntent play album {album} by {artist}
+AlbumByArtistIntent to play album {album} by {artist}
+PlaylistIntent to play {playlist} playlist
+PlaylistIntent play {playlist} playlist
+PlaylistIntent play the {playlist} playlist
+PlaylistIntent to play the {playlist} playlist

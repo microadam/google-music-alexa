@@ -1,0 +1,76 @@
+{
+  "intents": [
+    {
+      "intent": "AMAZON.PauseIntent"
+    },
+    {
+      "intent": "AMAZON.ResumeIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.NextIntent"
+    },
+    {
+      "intent": "AMAZON.PreviousIntent"
+    },
+    {
+      "intent": "MetaIntent",
+      "slots": []
+    },
+    {
+      "intent": "ArtistIntent",
+      "slots": [
+        {
+          "name": "artist",
+          "type": "ARTIST"
+        }
+      ]
+    },
+    {
+      "intent": "TrackIntent",
+      "slots": [
+        {
+          "name": "track",
+          "type": "TRACK"
+        }
+      ]
+    },
+    {
+      "intent": "PlaylistIntent",
+      "slots": [
+        {
+          "name": "playlist",
+          "type": "PLAYLIST"
+        }
+      ]
+    },
+    {
+      "intent": "TrackByArtistIntent",
+      "slots": [
+        {
+          "name": "track",
+          "type": "TRACK"
+        },
+        {
+          "name": "artist",
+          "type": "ARTIST"
+        }
+      ]
+    },
+    {
+      "intent": "AlbumByArtistIntent",
+      "slots": [
+        {
+          "name": "album",
+          "type": "ALBUM"
+        },
+        {
+          "name": "artist",
+          "type": "ARTIST"
+        }
+      ]
+    }
+  ]
+}
