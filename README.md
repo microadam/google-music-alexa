@@ -9,4 +9,4 @@ rm out.zip ; zip -r out.zip ./
 ```
 GOOGLE_MUSIC_PLAYER http://xxxx:xxx
 API_KEY xxxx
-```%
+```
