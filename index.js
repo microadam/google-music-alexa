@@ -53,6 +53,7 @@ exports.handler = function(event, context, callback) {
   handlers.TrackByArtistIntent = trackByArtistIntent
   handlers.AlbumByArtistIntent = albumByArtistIntent
   handlers.PlaylistIntent = playlistIntent
+  handlers.StationIntent = stationIntent
 
   alexa.registerHandlers(handlers)
   alexa.execute()
@@ -78,6 +79,14 @@ exports.handler = function(event, context, callback) {
     performPlayAction.call(this, data, (error, response) => {
       if (error) return
       this.emit(':tell', 'Playing the' + response.playlist + ' playlist')
+    })
+  }
+
+  function stationIntent() {
+    const data = { station: this.event.request.intent.slots.station.value }
+    performPlayAction.call(this, data, (error, response) => {
+      if (error) return
+      this.emit(':tell', 'Playing ' + response.station + ' radio station')
     })
   }
 

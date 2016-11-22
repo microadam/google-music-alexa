@@ -26,3 +26,5 @@ PlaylistIntent to play {playlist} playlist
 PlaylistIntent play {playlist} playlist
 PlaylistIntent play the {playlist} playlist
 PlaylistIntent to play the {playlist} playlist
+StationIntent play {station} radio
+StationIntent to play {station} radio

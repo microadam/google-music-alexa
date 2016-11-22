@@ -47,6 +47,15 @@
       ]
     },
     {
+      "intent": "StationIntent",
+      "slots": [
+        {
+          "name": "station",
+          "type": "STATION"
+        }
+      ]
+    },
+    {
       "intent": "TrackByArtistIntent",
       "slots": [
         {
